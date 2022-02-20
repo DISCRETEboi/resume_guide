@@ -40,7 +40,7 @@ ui <- fluidPage(style = "padding-left: 40px;",
   
   hr(),
   
-  fluidRow(h3("ENTER A SHORT DECRIPTION OF YOU"),
+  fluidRow(h3("ENTER A SHORT DESCRIPTION OF YOU"),
            textAreaInput("summary", "Summary", rows = 6, width = "700px"),
            ),
   
@@ -51,20 +51,22 @@ ui <- fluidPage(style = "padding-left: 40px;",
            textAreaInput("desc", "Job description", rows = 4, width = "400px")
            ),
   fluidRow(
-    column(3,
-           actionButton("add_new", "Add New", width = "150px")
+    column(2,
+           actionButton("add_new", "Add New", width = "140px")
            ),
     column(5,
-           'Click "Add New" to add new experience (Re-enter after the text box refrehes)'
+           p('Click "Add New" to add new experience (Re-enter after the text box refrehes)',
+             style = "color: red")
            )
   ),
   br(),
   fluidRow(
-    column(3,
-           actionButton("finish_submit", "Finish and Submit", width = "150px")
+    column(2,
+           actionButton("finish_submit", "Finish and Submit", width = "140px")
            ),
     column(5,
-           'Click "Finish and Submit" to submit all experiences and proceed'
+           p('Click "Finish and Submit" to submit all experiences and proceed',
+             style = "color: red")
            )
   ),
   
