@@ -1,23 +1,29 @@
 library(shiny)
+library(markdown)
 
 themes <- c("blue", "yellow", "green", "red", "black")
+class <- c("Programming", "Tools/Technologies", "Industry Knowledge",
+           "Packages/Modules", "Other Skills", "Soft Skills")
 
 ui <- fluidPage(style = "padding-left: 40px;",
   fluidRow(h3("CHOOSE YOUR PREFERRED THEME"),
-    radioButtons("theme", "What colour scheme do you like?", themes),
-    ),
+           radioButtons("theme", "What colour scheme do you like?", themes)
+           ),
   
   hr(),
   
   fluidRow(h3("INPUT YOUR NAMES"),
     column(4,
-           textInput("f_n", "First name")
+           textInput("f_n", "First name"),
+           style = "padding-left:0px"
            ),
     column(4,
-           textInput("m_n", "Middle name")
+           textInput("m_n", "Middle name"),
+           style = "padding-left:0px"
           ),
     column(4,
-           textInput("l_n", "Last name")
+           textInput("l_n", "Last name"),
+           style = "padding-left:0px"
           ),
     ),
   
@@ -26,15 +32,18 @@ ui <- fluidPage(style = "padding-left: 40px;",
   fluidRow(h3("INPUT YOUR CONTACT DETAILS"),
     column(4,
            textInput("phone", "Phone number"),
-           textInput("github", "Github profile link")
+           textInput("github", "Github profile link"),
+           style = "padding-left:0px"
            ),
     column(4,
            textInput("email", "Email"),
-           textInput("LinkedIn", "LinkedIn profile link")
+           textInput("LinkedIn", "LinkedIn profile link"),
+           style = "padding-left:0px"
            ),
     column(4,
            textInput("location", "Location"),
-           textInput("other_profile", "Other profile")
+           textInput("other_profile", "Other profile"),
+           style = "padding-left:0px"
            ),
   ),
   
@@ -52,25 +61,35 @@ ui <- fluidPage(style = "padding-left: 40px;",
            ),
   fluidRow(
     column(2,
-           actionButton("add_new", "Add New", width = "140px")
+           actionButton("add_new", "Submit & add New", width = "155px",
+                        style = "color:white; background-color:blue",
+                        icon = icon("plus")
+                        ),
+           style = "padding-left:0px"
            ),
-    column(5,
-           p('Click "Add New" to add new experience (Re-enter after the text box refrehes)',
-             style = "color: red")
-           )
-  ),
-  br(),
-  fluidRow(
-    column(2,
-           actionButton("finish_submit", "Finish and Submit", width = "140px")
-           ),
-    column(5,
-           p('Click "Finish and Submit" to submit all experiences and proceed',
+    column(10,
+           p('Click "Submit & add New" to add new experience (Re-enter after the text box refrehes)',
              style = "color: red")
            )
   ),
   
+  hr(),
+  
+  fluidRow(h3("ENTER YOUR SKILLS"),
+           selectInput("class", "Class of skill", choices = class),
+           selectInput("sub_class", "Sublass of skill", choices = NULL),
+           actionButton("add_new", "Submit & add New", width = "155px",
+                        style = "color:white; background-color:blue",
+                        icon = icon("plus")
+                        )
+           ),
+  
+  hr(),
+  
+  includeMarkdown("Resume_2_2.md"),
+  
   hr()
+  
 )
 
 server <- function(input, output, session) {
