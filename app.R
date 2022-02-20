@@ -2,11 +2,10 @@ library(shiny)
 
 themes <- c("blue", "yellow", "green", "red", "black")
 
-ui <- fluidPage(
+ui <- fluidPage(style = "padding-left: 40px;",
   fluidRow(h3("CHOOSE YOUR PREFERRED THEME"),
     radioButtons("theme", "What colour scheme do you like?", themes),
-    style = "padding-left: 15px;"
-  ),
+    ),
   
   hr(),
   
@@ -20,7 +19,6 @@ ui <- fluidPage(
     column(4,
            textInput("l_n", "Last name")
           ),
-    style = "padding-left: 15px;"
     ),
   
   hr(),
@@ -38,15 +36,37 @@ ui <- fluidPage(
            textInput("location", "Location"),
            textInput("other_profile", "Other profile")
            ),
-    style = "padding-left: 15px;"
   ),
   
   hr(),
   
   fluidRow(h3("ENTER A SHORT DECRIPTION OF YOU"),
            textAreaInput("summary", "Summary", rows = 6, width = "700px"),
-           style = "padding-left: 15px;"
            ),
+  
+  hr(),
+  
+  fluidRow(h3("ENTER YOUR INDUSTRY EXPERIENCE"),
+           textInput("title", "Job title"),
+           textAreaInput("desc", "Job description", rows = 4, width = "400px")
+           ),
+  fluidRow(
+    column(3,
+           actionButton("add_new", "Add New", width = "150px")
+           ),
+    column(5,
+           'Click "Add New" to add new experience (Re-enter after the text box refrehes)'
+           )
+  ),
+  br(),
+  fluidRow(
+    column(3,
+           actionButton("finish_submit", "Finish and Submit", width = "150px")
+           ),
+    column(5,
+           'Click "Finish and Submit" to submit all experiences and proceed'
+           )
+  ),
   
   hr()
 )
