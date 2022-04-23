@@ -2,7 +2,7 @@
 
 <div style="text-align:center">
 +2347049986998 &#x2022
-<a href='mailto:en.a.q@gmail.com' style='color: blue'>en.a.q@gmail.com</a> &#x2022
+<a href='mailto:abdulmateen.a.q@gmail.com' style='color: blue'>abdulmateen.a.q@gmail.com</a> &#x2022
 <a href='https://www.linkedin.com/in/abdulmateenqamardeen/' style='color: blue'>LinkedIn</a> &#x2022
 <a href='https://github.com/DISCRETEboi/' style='color: blue'>Github</a> &#x2022
 <a href='https://mateen.com/' style='color: blue'>Other Profile</a> &#x2022
