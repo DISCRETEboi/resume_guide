@@ -97,10 +97,10 @@ ui <- fluidPage(style = "padding-left: 40px;",
                    style = "color:white; font-weight:bold; border: 1px solid #005090;
                    background-image: linear-gradient(#1874CD, #1E90FF);",
                    icon = icon("file-text")
+                   )
       )
-    )
     #style = "background-color: #e4e8eb"
-  ), br(),
+    ), br(),
   
   fluidRow(
     column(10, offset = 1,

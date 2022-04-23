@@ -1,19 +1,19 @@
-<h1><center style = 'color: green'>ABDUL-MATEEN HJHJGJ QAMARDEEN </center></h1>
+<h1><center style = 'color: blue'>ABDUL-MATEEN  QAMARDEEN </center></h1>
 
 <div style="text-align:center">
-+234704998 &#x2022
-<a href='mailto:abdulmateen.a.q@gmail.com' style='color: green'>abdulmateen.a.q@gmail.com</a> &#x2022
-<a href='https://www.linkedin.com/in/abdulmateenqamardeen/' style='color: green'>LinkedIn</a> &#x2022
-<a href='https://github.com/DISCRETEboi/' style='color: green'>Github</a> &#x2022
-<a href='https://mate' style='color: green'>Other Profile</a> &#x2022
++2347049986998 &#x2022
+<a href='mailto:en.a.q@gmail.com' style='color: blue'>en.a.q@gmail.com</a> &#x2022
+<a href='https://www.linkedin.com/in/abdulmateenqamardeen/' style='color: blue'>LinkedIn</a> &#x2022
+<a href='https://github.com/DISCRETEboi/' style='color: blue'>Github</a> &#x2022
+<a href='https://mateen.com/' style='color: blue'>Other Profile</a> &#x2022
 Lagos, Nigeria
 </div>
 
-<h3><u span style = 'color: green'>SUMMARY</u></h3>
+<h3><u span style = 'color: blue'>SUMMARY</u></h3>
 
 Proficient R Developer with extensive experience in implementing data-centric software solutions in the R programming environment. Proven ability of developing R Shiny applications, R packages, R Markdown reports and R automation scripts. Sound understanding of statistical and analytical techniques useful for rational decision making. Highly organized, motivated and diligent. Experienced in using project management tools like Git, Trello. Enthusiastic about contributing to team success through hard work, attention to detail and excellent organizational skills.
 
-<h3><u style = 'color: green'>INDUSTRY EXPERIENCE (FREELANCE)</u></h3>
+<h3><u style = 'color: blue'>INDUSTRY EXPERIENCE (FREELANCE)</u></h3>
   
 <b>R Developer</b>
 <span style='float:right;font-style:italic'>Feb. 2021 - Present</span>
@@ -35,7 +35,7 @@ Proficient R Developer with extensive experience in implementing data-centric so
 - Developed R Markdown & HTML documents for the pages of the website.
 - Deployed the website to Netlify for availability on the web.
 
-<h3><u span style = 'color: green'>SKILLS</u></h3>
+<h3><u span style = 'color: blue'>SKILLS</u></h3>
 
 <ul>
 <li><b>Programming</b>: R, Python, SQL, Go, HTML</li>
@@ -46,7 +46,7 @@ Proficient R Developer with extensive experience in implementing data-centric so
 <li><b>Soft skills</b>: Analytical Skills, Critical Thinking, Teamwork, Communication</li>
 </ul>
 
-<h3><u span style = 'color: green'>EDUCATION</u></h3>
+<h3><u span style = 'color: blue'>EDUCATION</u></h3>
 
 <div>
 <b>BSc. in Architecture</b>
@@ -54,7 +54,7 @@ Proficient R Developer with extensive experience in implementing data-centric so
 Obafemi Awolowo University, Ile-Ife, Nigeria
 </div>
 
-<h3><u span style = 'color: green'>CERTIFICATIONS</u></h3>
+<h3><u span style = 'color: blue'>CERTIFICATIONS</u></h3>
 
 - R Programming, The Johns Hopkins University - Dec, 2020 [[Verify]](https://www.coursera.org/account/accomplishments/verify/E2AF2R632Z2S?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse)
 - R (Intermediate), HackerRank - Jul, 2021 [[Verify]](https://www.hackerrank.com/certificates/f8006c3f3635)
@@ -62,7 +62,7 @@ Obafemi Awolowo University, Ile-Ife, Nigeria
 - Exploratory Data Analysis, The Johns Hopkins University - Jul, 2021 [[Verify]](https://www.coursera.org/account/accomplishments/verify/S84B68VZ5DZP?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse)
 - Data Science Maths Skills, Duke University - Mar, 2021 [[Verify]](https://www.coursera.org/account/accomplishments/verify/YJ8TDU33JGJ7?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse)
 
-<h3><u span style = 'color: green'>PERSONAL PROJECTS</u></h3>
+<h3><u span style = 'color: blue'>PERSONAL PROJECTS</u></h3>
 
 **RESUME BUILDER WEBSITE DEVELOPMENT USING R SHINY BASED FRAMEWORK** [[Github]](https://github.com/DISCRETEboi/resume_guide)
 
